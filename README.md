@@ -19,11 +19,11 @@ This project builds and tunes an Elastic Net regression model on the engineered 
 - Interpreting regression error metrics: MAE for average absolute error intuition and RMSE to emphasize larger mistakes.
 
 ## How to run the notebook
-1. Clone the repo and open the notebook:
-   ```bash
-   git clone https://github.com/loplop05/Ames_Housing_Data-Predection.git
-   cd Ames_Housing_Data-Predection
-   ```
+1. Clone the repo (project: *Ames Housing Data Prediction*; GitHub repo name uses `Predection`) and open the notebook:
+    ```bash
+    git clone https://github.com/loplop05/Ames_Housing_Data-Predection.git
+    cd Ames_Housing_Data-Predection
+    ```
 2. Install requirements (Python 3.10+ recommended):
    ```bash
    pip install pandas numpy seaborn matplotlib scikit-learn
@@ -37,4 +37,3 @@ This project builds and tunes an Elastic Net regression model on the engineered 
 ## Project structure
 - `Linear-Regression-Project.ipynb` — end-to-end workflow (imports, scaling, Elastic Net tuning, metrics).
 - `DATA/AMES_Final_DF.csv` — processed feature matrix used by the notebook (referenced in the notebook; ensure it is present when running).
-
